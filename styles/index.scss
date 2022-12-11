@@ -1,0 +1,24 @@
+.root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  scrollbar-color: $accent-color #10101D;
+  scrollbar-width: thin;
+  min-width: 320px;
+
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #10101D
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $accent-color;
+    border-radius: 3px;
+  }
+}

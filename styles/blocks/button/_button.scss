@@ -1,0 +1,47 @@
+.button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  gap: 10px;
+  width: 183px;
+  height: 43px;
+  background: $accent-color;
+  border: 1px solid $main-color;
+  border-radius: 4px;
+  transition: opacity 0.4s ease;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $main-color;
+
+  @media screen and (max-width: 420px) {
+    width: 150px;
+  }
+
+  @media screen and (max-width: 374px) {
+    width: 120px;
+  }
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  &_place_process {
+    max-width: 370px;
+    width: 100%;
+  }
+
+  &_place_order {
+    color: #2A2B30;
+    background: $main-color;
+    border: 1px solid #6F6D7B;
+    color: $button-second-color;
+  }
+}
