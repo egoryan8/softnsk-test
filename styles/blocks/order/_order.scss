@@ -2,7 +2,7 @@
 .order {
   max-width: 1919px;
   height: 857px;
-  background-image: url("/images/orderbg.png");
+  background-image: url("../images/orderbg.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -11,7 +11,7 @@
   }
 
   @media screen and (max-width: 500px) {
-    background-image: url("/images/ordermobile.png");
+    background-image: url("../images/ordermobile.png");
     background-position: left;
   }
 
