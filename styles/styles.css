@@ -94,7 +94,6 @@
 }
 
 .page {
-  max-width: 1920px;
   min-width: 320px;
   font-family: "Lato", sans-serif;
   margin: 0 auto;
@@ -210,7 +209,6 @@
 }
 
 .order {
-  max-width: 1919px;
   height: 857px;
   background-image: url("../images/orderbg.png");
   background-size: cover;
